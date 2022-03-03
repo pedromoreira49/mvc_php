@@ -16,15 +16,8 @@
 			$view = 'views\\'.ucfirst($url[0]).'View';
 			$model = 'models\\'.ucfirst($url[0]).'Model';
 
-			echo $class;
-			echo '<br />';
-			echo $view;
-			echo '<br />';
-			echo $model;
-
-
-			//$controller = new $class(new $view, new $model);
-			//$controller->index();
+			$controller = new $class(new $view, new $model);
+			$controller->index();
 
 		}
 	}
