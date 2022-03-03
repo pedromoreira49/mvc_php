@@ -8,7 +8,7 @@
 		}
 
 		public function index(){
-			echo 'Página de Login!';
+			$this->view->render('login.php', null, null);
 		}
 
 	}
