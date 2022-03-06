@@ -1,7 +1,7 @@
 <?php
 
 	class Application{
-		const DEFAULT = 'Login';
+		const DEFAULT = 'Home';
 
 		public function run(){
 			if(isset($_GET['url'])){

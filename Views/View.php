@@ -12,7 +12,7 @@
 				include('Views/templates/'.self::DEFAULT_HEADER);
 			}
 			include('Views/templates/'.$body);
-			if($body == null){
+			if($footer == null){
 				include('Views/templates/'.self::DEFAULT_FOOTER);
 			}
 		}
