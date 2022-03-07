@@ -1,7 +1,7 @@
 <?php
 	namespace models;
 
-	class ContatoView extends Model{
+	class ContatoModel extends Model{
 		
 	}
 
