@@ -1,5 +1,5 @@
 <?php
-
+	define('INCLUDE_PATH', '/mvc_php/');
 	$autoload = function($class){
 		if(file_exists($class.'.php')){
 			include($class.'.php');

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>views/templates/css/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Estrutura MVC</title>
 </head>
@@ -9,8 +10,8 @@
 
 	<nav class="menu-desktop">
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Sobre</a></li>
-			<li><a href="#">Contato</a></li>
+			<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+			<li><a href="<?php echo INCLUDE_PATH; ?>Sobre">Sobre</a></li>
+			<li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
 		</ul>
 	</nav>

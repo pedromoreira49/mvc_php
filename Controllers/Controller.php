@@ -1,5 +1,5 @@
 <?php
-	namespace controllers;
+	namespace Controllers;
 
 	class Controller{
 
@@ -12,7 +12,6 @@
 		}
 
 		public function index(){}
-
 	}
 
 
